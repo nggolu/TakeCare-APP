@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1037446612390",
+    "firebase_url": "https://swemain-de53c.firebaseio.com",
+    "project_id": "swemain-de53c",
+    "storage_bucket": "swemain-de53c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037446612390:android:2540d18768171483",
+        "android_client_info": {
+          "package_name": "com.example.goku.swe_main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037446612390-uvnkinik8ej4usv0mpdvvh31cq1p46lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.goku.swe_main",
+            "certificate_hash": "3FD4FA4CAD0FAD804F0D44EF630328BA060D1C7F"
+          }
+        },
+        {
+          "client_id": "1037446612390-84aet6df6cd4fh126b6ve6l3207vmn4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIlmTPuaUhTzFMB20XmdJ9dcFvePVe8F4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037446612390-84aet6df6cd4fh126b6ve6l3207vmn4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

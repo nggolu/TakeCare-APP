@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/blurr"
+    android:scaleType="matrix"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.goku.swe_main.Home">
+
+
+    <Button
+        android:text="Danger zone"
+        android:layout_width="351dp"
+        android:layout_height="38dp"
+        android:id="@+id/danger"
+        android:textSize="19dp"
+        android:background="#800000"
+
+        android:layout_above="@+id/police_staion"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp" />
+
+    <Button
+        android:text="Police Station"
+        android:layout_width="351dp"
+        android:layout_height="38dp"
+        android:background="#800000"
+        android:textSize="19dp"
+        android:id="@+id/police_staion"
+        android:layout_marginBottom="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="213dp"
+        android:layout_height="159dp"
+        android:src="@drawable/inform"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="1dp"
+        android:id="@+id/inform"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="213dp"
+        android:layout_height="137dp"
+        android:src="@drawable/panic"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:paddingTop="2dp"
+        android:id="@+id/panic"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/inform"
+        android:layout_marginTop="38dp" />
+
+
+</RelativeLayout>

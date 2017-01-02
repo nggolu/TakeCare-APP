@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/blurr"
+    android:scaleType="matrix"
+    tools:context="com.example.goku.swe_main.Feedback">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/surprisedd"
+        android:id="@+id/surprised"
+
+        android:layout_alignTop="@+id/happy"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:inputType="textPersonName"
+        android:hint="Tell us what is on your mind... "
+        android:ems="19"
+        android:textSize="19dp"
+        android:id="@+id/feedback"
+        android:background="#800000"
+        android:textColor="@color/white"
+        android:gravity="start"
+        android:layout_above="@+id/send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hap"
+
+        android:layout_marginTop="45dp"
+        android:id="@+id/happy"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/feedback"
+        android:layout_marginStart="22dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sadd"
+        android:id="@+id/sad"
+        android:layout_alignTop="@+id/surprised"
+        android:layout_alignEnd="@+id/feedback"
+        android:layout_marginEnd="17dp" />
+
+    <Button
+        android:text="Submit Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:background="#800000"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/send"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="How do you feel about the support you received from Take Care ? "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/feedback" />
+
+    <TextView
+        android:text="Do you have any addditional feedback for us? We are listening. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/feedback"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp" />
+
+</RelativeLayout>
